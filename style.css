@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background-color: #00d26a;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gverdi {
+  width: 800px;
+  max-width: 95%;
+}
+
+.barati {
+  display: flex;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px gray;
+  overflow: hidden;
+}
+
+.vashli {
+  background-color: #a8e063;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.vashli img {
+  width: 280px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translateX(-30px);
+}
+
+.info {
+  padding: 30px;
+  width: 350px;
+}
+
+.satauri {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.fasi {
+  color: #e63946;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.feri-texti {
+  font-size: 13px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.fervebi {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0 15px 0;
+}
+
+.feri {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: inline-block;
+}
+
+.mtsvane {
+  background-color: #6cc24a;
+}
+.witeli {
+  background-color: #e74c3c;
+}
+.yviteli {
+  background-color: #f1c40f;
+}
+
+.siachleebi {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.gilaki {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.gilaki:hover {
+  background-color: #c12f3b;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 20px;
+  }
+
+  .barati {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vashli img {
+    width: 200px;
+    height: 220px;
+    transform: none;
+  }
+
+  .info {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .satauri {
+    font-size: 20px;
+  }
+
+  .fasi {
+    font-size: 20px;
+  }
+
+  .gilaki {
+    width: 100%;
+  }
+}
